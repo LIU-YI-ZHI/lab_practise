@@ -1,0 +1,127 @@
+/*
+
+Xilinx Vivado v2019.2 (64-bit) [Major: 2019, Minor: 2]
+SW Build: 2708876 on Wed Nov  6 21:40:23 MST 2019
+IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+
+Process ID (PID): 30048
+License: Customer
+
+Current time: 	Wed Jul 26 14:50:17 CST 2023
+Time zone: 	Taipei Standard Time (Asia/Taipei)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 2560x1440
+Screen resolution (DPI): 150
+Available screens: 2
+Available disk space: 251 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=18
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	ASUS
+User home directory: C:/Users/ASUS
+User working directory: D:/FPGA_DATA/lab_practise/project_2
+User country: 	TW
+User language: 	zh
+User locale: 	zh_TW
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.2
+RDI_DATADIR: C:/Xilinx/Vivado/2019.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.2/bin
+
+Vivado preferences file location: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2019.2/vivado.xml
+Vivado preferences directory: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2019.2/
+Vivado layouts directory: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2019.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/FPGA_DATA/lab_practise/project_2/vivado.log
+Vivado journal file location: 	D:/FPGA_DATA/lab_practise/project_2/vivado.jou
+Engine tmp dir: 	D:/FPGA_DATA/lab_practise/project_2/.Xil/Vivado-30048-LAPTOP-IKQBRPMO
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.2
+
+
+GUI allocated memory:	384 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 715 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bB (cr):  Open Project : addNotify
+// Opening Vivado Project: D:\FPGA_DATA\lab_practise\project_2\project_2.xpr. Version: Vivado v2019.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/FPGA_DATA/lab_practise/project_2/project_2.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/FPGA_DATA/lab_practise/project_2/project_2.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 90 MB (+92247kb) [00:00:13]
+// [Engine Memory]: 732 MB (+616040kb) [00:00:13]
+// [GUI Memory]: 105 MB (+10439kb) [00:00:13]
+// [GUI Memory]: 129 MB (+19643kb) [00:00:13]
+// WARNING: HEventQueue.dispatchEvent() is taking  3177 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 760 MB. GUI used memory: 66 MB. Current time: 7/26/23, 2:50:22 PM CST
+// Tcl Message: open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 992.758 ; gain = 68.500 
+// Project name: project_2; location: D:/FPGA_DATA/lab_practise/project_2; part: xc7z020clg484-3
+dismissDialog("Open Project"); // bB (cr)
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, updown_2_Counter (updown_2_Counter.v)]", 1, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, updown_2_Counter (updown_2_Counter.v)]", 1, false); // B (F, cr)
+// [GUI Memory]: 136 MB (+937kb) [00:00:24]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, updown_2_Counter (updown_2_Counter.v)]", 1, false, false, false, false, false, true); // B (F, cr) - Double Click
+// [GUI Memory]: 144 MB (+646kb) [00:00:24]
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+selectCodeEditor("updown_2_Counter.v", 175, 795); // ch (w, cr)
+typeControlKey((HResource) null, "updown_2_Counter.v", 'c'); // ch (w, cr)
+// Elapsed time: 119 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aA
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_updown_Counter (TB_updown_Counter.v)]", 5, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_updown_Counter (TB_updown_Counter.v)]", 5, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_updown_Counter (TB_updown_Counter.v)]", 5, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+selectCodeEditor("TB_updown_Counter.v", 170, 784); // ch (w, cr)
+typeControlKey((HResource) null, "TB_updown_Counter.v", 'c'); // ch (w, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 767 MB. GUI used memory: 81 MB. Current time: 7/26/23, 3:20:22 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 767 MB. GUI used memory: 74 MB. Current time: 7/26/23, 3:50:25 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 767 MB. GUI used memory: 74 MB. Current time: 7/26/23, 4:20:28 PM CST

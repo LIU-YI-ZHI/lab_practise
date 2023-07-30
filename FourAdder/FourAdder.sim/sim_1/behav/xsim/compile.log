@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DATA/FPGA_Book_EX/lab2/4BitAdder/FourAdder_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FourAdder_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DATA/lab_practise/FourAdder/FourAdder.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

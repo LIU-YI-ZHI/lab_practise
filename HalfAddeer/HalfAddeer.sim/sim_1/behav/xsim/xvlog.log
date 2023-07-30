@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DATA/lab_practise/HalfAddeer/HalfAddeer.srcs/sources_1/new/HalfAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HalfAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DATA/lab_practise/HalfAddeer/HalfAddeer.srcs/sim_1/new/tb_HalfAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_HalfAdder

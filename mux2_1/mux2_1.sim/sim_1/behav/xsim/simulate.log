@@ -1,0 +1,8 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+Testbench for mux2_1
+Testcase 1: y = 0
+Testcase 2: y = 1
+Testcase 3: y = 1
+Testcase 4: y = 0
+$finish called at time : 20 ns : File "D:/FPGA_DATA/lab_practise/mux2_1/mux2_1.srcs/sim_1/new/TB_mux2_1.v" Line 66

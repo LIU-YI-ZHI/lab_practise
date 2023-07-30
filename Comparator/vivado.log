@@ -1,0 +1,87 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Jul 24 16:56:43 2023
+# Process ID: 5152
+# Current directory: D:/FPGA_DATA/lab_practise/Comparator
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8116 D:\FPGA_DATA\lab_practise\Comparator\Comparator.xpr
+# Log file: D:/FPGA_DATA/lab_practise/Comparator/vivado.log
+# Journal file: D:/FPGA_DATA/lab_practise/Comparator\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/FPGA_DATA/lab_practise/Comparator/Comparator.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/FPGA_DATA/lab_practise/Comparator/Comparator.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Comparator_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/FPGA_DATA/lab_practise/Comparator/Comparator.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Comparator_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DATA/lab_practise/Comparator/Comparator.srcs/sim_1/new/Comparator_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Comparator_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/FPGA_DATA/lab_practise/Comparator/Comparator.sim/sim_1/behav/xsim'
+"xelab -wto c802a171a9fa4fd99d72be4b38f517a6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Comparator_tb_behav xil_defaultlib.Comparator_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto c802a171a9fa4fd99d72be4b38f517a6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Comparator_tb_behav xil_defaultlib.Comparator_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Comparator
+Compiling module xil_defaultlib.Comparator_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Comparator_tb_behav
+
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source D:/FPGA_DATA/lab_practise/Comparator/Comparator.sim/sim_1/behav/xsim/xsim.dir/Comparator_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'D:/FPGA_DATA/lab_practise/Comparator/Comparator.sim/sim_1/behav/xsim/xsim.dir/Comparator_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Jul 24 16:57:06 2023. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2019.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Mon Jul 24 16:57:06 2023...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 813.793 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/FPGA_DATA/lab_practise/Comparator/Comparator.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Comparator_tb_behav -key {Behavioral:sim_1:Functional:Comparator_tb} -tclbatch {Comparator_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source Comparator_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 200 ns : File "D:/FPGA_DATA/lab_practise/Comparator/Comparator.srcs/sim_1/new/Comparator_tb.v" Line 40
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Comparator_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 826.941 ; gain = 35.832
+update_compile_order -fileset sources_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 842.988 ; gain = 4.625
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jul 24 17:04:03 2023...
